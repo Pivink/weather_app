@@ -1,0 +1,44 @@
+.infobox{
+     text-align: center;
+}
+.cardContainer{
+     display: flex;
+     justify-content: center;
+}
+/* InfoBox.css */
+.infobox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     margin-top: 20px;
+ }
+ 
+ .cardContainer {
+     width: 360px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+     background-color: #ffffff;
+     transition: transform 0.3s ease-in-out;
+ }
+ 
+ .cardContainer:hover {
+     transform: scale(1.05);
+ }
+ 
+ .weather-icon {
+     font-size: 2rem;
+     margin-left: 10px;
+ }
+ 
+ .weather-details {
+     color: #555;
+     font-size: 1rem;
+     padding: 10px;
+ }
+ 
+ .weather-details i {
+     font-style: italic;
+     color: #ff9800;
+ }
+ 
